@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But keep .gitignore
+!.gitignore
+
+# Keep app1 directory
+!app1/
+
