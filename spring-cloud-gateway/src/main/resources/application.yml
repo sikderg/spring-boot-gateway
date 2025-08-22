@@ -2,13 +2,13 @@ server:
   port: 8085
 
 spring:
+  application:
+    name: spring-cloud-gateway
   security:
     oauth2:
       resourceserver:
         jwt:
             issuer-uri: http://localhost:8080/realms/ats_realm
-  application:
-    name: spring-cloud-gateway
   cloud:
     gateway:
       server:
